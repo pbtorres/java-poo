@@ -60,6 +60,7 @@ public class Program {
 			} 
 			
 		}
+		System.out.println("alteração para o git");
 				
 		sc.close();
 	}
