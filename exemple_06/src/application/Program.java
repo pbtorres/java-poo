@@ -35,11 +35,10 @@ public class Program {
 		for (int  i=0; i<rooms.length; i++) {
 			if (rooms[i] != null) {
 				System.out.println(rooms[i].getRoom() +": " + 
-						   rooms[i].getName() + ", " +
-				           rooms[i].getEmail());
+						           rooms[i].getName() + ", " +
+				                   rooms[i].getEmail());
 			}
 		}
-		
 		
 		sc.close();
 	}
