@@ -1,3 +1,9 @@
+/*
+ * HERANÇA
+ * SWITCH CASE
+ * SOBRESCRITA DE MÉTODO
+ * 
+ */
 package application;
 
 import java.util.ArrayList;
