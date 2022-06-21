@@ -2,7 +2,6 @@
  * HERANÇA
  * SWITCH CASE
  * SOBRESCRITA DE MÉTODO
- * 
  */
 package application;
 
