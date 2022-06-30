@@ -1,5 +1,5 @@
 /*
- * COLLRCTIONS
+ * CLASSE COLLECTIONS
  */
 package application;
 
