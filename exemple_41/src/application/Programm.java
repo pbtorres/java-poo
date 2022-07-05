@@ -1,5 +1,5 @@
 /*
- * Usando Classe anônima
+ * Usando expressão lambda
  */
 package application;
 
@@ -17,11 +17,8 @@ public class Programm {
 		list.add(new Product("Notebook", 1200.00));
 		list.add(new Product("Tablet", 450.00));
 		
-		Comparator<Product> comp = new Comparator<Product>() {
-			@Override
-			public int compare(Product p1, Product p2) {
-				return p1.getName().toLowerCase().compareTo(p2.getName().toLowerCase());
-			}
+		Comparator<Product> comp = (p1, p2) -> {
+			return p1.getName().toLowerCase().compareTo(p2.getName().toLowerCase());
 		};
 		
 		list.sort(comp);
