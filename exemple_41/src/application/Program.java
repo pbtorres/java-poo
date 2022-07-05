@@ -1,5 +1,5 @@
 /*
- * Usando expressão lambda como argumento
+ * Passando expressão lambda como argumento
  */
 package application;
 
@@ -8,7 +8,7 @@ import java.util.List;
 
 import entities.Product;
 
-public class Programm {
+public class Program {
 	public static void main(String[] args) {
 		List<Product> list = new ArrayList<>();
 		
