@@ -1,5 +1,5 @@
 /*
- * Usando expressão lambda declarada
+ * Usando expressão lambda inline
  */
 package application;
 
@@ -18,15 +18,8 @@ List<Product> list = new ArrayList<>();
 		list.add(new Product("Notebook", 1200.00));
 		list.add(new Product("Tablet", 450.00));
 		
-		Consumer<Product> cons = new Consumer<Product>() {
+		Consumer<Product> cons = p -> p.setPrice(p.getPrice() * 1.1);
 
-			@Override
-			public void accept(Product p) {
-				p.setPrice(p.getPrice() * 1.1);
-			}
-			
-		};
-		
 		list.forEach(cons);
 		
 		list.forEach(System.out::println);
