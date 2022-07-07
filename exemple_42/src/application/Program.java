@@ -1,5 +1,5 @@
 /*
- * Usando interface Comparator<T>
+ * Reference Method com método estático
  */
 package application;
 
@@ -18,7 +18,7 @@ List<Product> list = new ArrayList<>();
 		list.add(new Product("Notebook", 1200.00));
 		list.add(new Product("Tablet", 450.00));
 		
-		list.forEach(new PriceUpdate());
+		list.forEach(Product::staticPriceUpdate);
 		
 		list.forEach(System.out::println);
 		
